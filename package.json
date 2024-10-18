@@ -1,7 +1,7 @@
 {
-    "name": "vue-element-plus-scaffold-webpack4",
+    "name": "vue3-element-plus-webpack5",
     "version": "1.0.9",
-    "description": "vue-element-plus-scaffold-webpack4",
+    "description": "vue3-element-plus-webpack5",
     "author": "huangzheng",
     "private": true,
     "scripts": {
@@ -75,6 +75,7 @@
         "sass": "^1.45.1",
         "sass-loader": "^14.2.1",
         "shelljs": "^0.8.5",
+        "unplugin-vue-components": "^0.27.4",
         "url-loader": "^4.1.1",
         "vue-loader": "^17.4.2",
         "vue-style-loader": "^4.1.3",

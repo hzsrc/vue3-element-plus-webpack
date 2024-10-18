@@ -9,6 +9,11 @@ const ThemeColorReplacer = require('webpack-theme-color-replacer')
 const forElementUI = require('webpack-theme-color-replacer/forElementUI')
 const JoinFileContentPlugin = require('join-file-content-plugin')
 
+// vue按需导入
+//const AutoImport = require('unplugin-auto-import/webpack').default;
+const Components = require('unplugin-vue-components/webpack').default;
+const { ElementPlusResolver } = require('unplugin-vue-components/resolvers');
+
 function resolve(dir) {
     return path.join(__dirname, '..', dir)
 }
@@ -70,6 +75,8 @@ module.exports = {
         ]
     },
     plugins: [
+        //AutoImport({ resolvers: [ElementPlusResolver()] }),
+        Components({ resolvers: [ElementPlusResolver()] }),
         new VueLoaderPlugin(),
         new webpack.DefinePlugin({
             'process.env': {

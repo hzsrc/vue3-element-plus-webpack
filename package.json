@@ -1,7 +1,7 @@
 {
-    "name": "vue3-element-plus-webpack5",
-    "version": "1.0.9",
-    "description": "vue3-element-plus-webpack5",
+    "name": "vue3-element-plus-webpack",
+    "version": "1.0.10",
+    "description": "vue3-element-plus-webpack",
     "author": "huangzheng",
     "private": true,
     "scripts": {

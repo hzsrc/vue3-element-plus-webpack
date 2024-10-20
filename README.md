@@ -1,4 +1,4 @@
-# vue3-element-plus-webpack5
+# vue3-element-plus-webpack
 
 
 本项目为vue下使用了element-plus并基于webpack5构建的多页面、多环境方案脚手架项目。
@@ -9,8 +9,8 @@
 
 ## 1. 安装
 ```
-git clone https://github.com/hzsrc/vue3-element-plus-webpack5.git
-cd vue3-element-plus-webpack5
+git clone https://github.com/hzsrc/vue3-element-plus-webpack.git
+cd vue3-element-plus-webpack
 npm install
 ```
 
